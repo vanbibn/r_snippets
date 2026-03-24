@@ -57,3 +57,9 @@ snippet end
 
 ################################################################################
 
+## shorthand for true and false
+snippet t
+	TRUE${0}
+	
+snippet f
+	FALSE${0}
