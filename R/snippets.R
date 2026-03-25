@@ -63,3 +63,7 @@ snippet t
 	
 snippet f
 	FALSE${0}
+
+## shorthand for %in%
+snippet in
+	%in% c(${0})
