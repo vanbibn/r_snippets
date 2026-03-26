@@ -59,11 +59,20 @@ snippet end
 
 ## shorthand for true and false
 snippet t
-	TRUE${0}
-	
+	TRUE
+
 snippet f
-	FALSE${0}
+	FALSE
 
 ## shorthand for %in%
 snippet in
 	%in% c(${0})
+
+## reactable custom defaults
+snippet react
+	reactable(
+	  compact = TRUE,
+	  resizable = TRUE,
+	  filterable = TRUE,
+	  wrap = FALSE
+	)
